@@ -1,3 +1,4 @@
+//factor of number
 const prompt = require('prompt-sync')();
 
 let number = parseInt(prompt('Enter the number : '));
