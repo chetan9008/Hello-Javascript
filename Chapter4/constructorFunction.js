@@ -131,3 +131,26 @@ Prototype();
 // item.count = 20;
 
 // console.log(item.count);
+
+
+function builtInFunctions()
+{
+    let name = new String('chetan');
+    console.log(name);
+    let array  = new Array();
+    array.push(1);
+    array.push(1);
+    array.push(1);
+    console.log(array[0]);
+
+
+    let object1 = new Object(
+        {
+            name:'chetan',
+            netWorth:'2m'
+        }
+    )
+    console.log(object1.name);
+    console.log(object1.netWorth);
+}
+builtInFunctions();
