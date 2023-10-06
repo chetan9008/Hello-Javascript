@@ -109,8 +109,22 @@ function arrayMethods3() {
     caste:'sc'
 }];
 
+
 array.sort();
 console.log(array);
 }
 
-arrayMethods3();
+// arrayMethods3();
+
+let array = ['chetan','gaurav'];
+let anotherArray = array;
+anotherArray.unshift('sparsh');
+console.log(array);
+
+array.name = 'kashish';
+
+console.log(array);
+
+console.log(array['name']);
+
+
