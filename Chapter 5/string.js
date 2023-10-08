@@ -89,7 +89,7 @@ function StringMethods()
     }
     replacedString = string.replace(reg,randomNumber);
     console.log(replacedString);
-
+    //split 
     let array = string.split(' ',2);
     console.log(array);
 }
@@ -98,10 +98,42 @@ StringMethods();
 function StringMethods2()
 {
     let string = 'javascript is love of my life';
-
+    //substring
     let language = string.substring(10,0);
     console.log(language);
+    //substr
     let language2 = string.substr(0,10);
     console.log(language2);
-} 
+    //slice
+    let anotherString = string.slice(-100,10);
+    console.log(anotherString);
+
+    let uppercase = anotherString.toUpperCase();
+    console.log(uppercase);
+    let lowercase = uppercase.toLowerCase();
+    console.log(lowercase);
+
+    console.log();
+    console.log();
+    string = '      lol           ';
+    let trim = string.trim();
+    console.log(string);
+    console.log(trim);
+    string = 'javascript is love of my life';
+    if(string.includes('javascript', 10))
+    {
+        console.log(string.replace('javascript','java'));
+    }
+    else
+    {
+        console.log(string.replace('javascript','c++'));
+    }
+
+    let regEx = /(javascript_)\d/;
+
+    string = 'javascript javascript_21';
+
+    console.log(string.search(regEx));
+    console.log(string.search('javascript'));
+}
 StringMethods2();
