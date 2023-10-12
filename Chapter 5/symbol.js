@@ -50,4 +50,24 @@ function symbolFunction1()
     console.log(anotherObject);
     console.log(anotherObject.email === anotherObject[email]);
 }
-symbolFunction1();
+// symbolFunction1();
+
+function symbolMethods()
+{
+    let symbol = Symbol.for('colgate');
+    console.log(Symbol.keyFor(symbol));
+    let anotherSymbol = Symbol.for('colgate');
+    console.log(symbol === anotherSymbol);
+
+    let object = {
+        name:'chetan',
+        class:'bsc',
+        [symbol]:'xyz'
+    }
+    let string = symbol.toString();
+    console.log(string);
+    console.log(typeof string);
+    console.log(object.valueOf());
+}
+
+symbolMethods();
