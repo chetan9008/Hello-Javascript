@@ -77,3 +77,4 @@ console.log(wMap.get(object2));
 
 for(let key in wMap)
 console.log(key);
+
