@@ -7,6 +7,7 @@ function inheritance() {
             this.class = 'bsc';
             // this.marks = 100;
         }
+        
 
         marks() {
             console.log('Marks in maths is 80');
