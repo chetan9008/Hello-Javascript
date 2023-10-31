@@ -1,3 +1,1 @@
-print: () => {
-        console.log('this is printing');
-    }
+object[b]--;
