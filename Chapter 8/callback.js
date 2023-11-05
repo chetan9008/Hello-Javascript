@@ -44,6 +44,7 @@ function example3()
     {
         console.log('This is javascript loading');
         setTimeout(function1,1000);
+        
     }
 
     let id = setTimeout(javascript,2000,html)
