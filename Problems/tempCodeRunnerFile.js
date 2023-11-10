@@ -1,1 +1,4 @@
-1000
+urn arr.map((obj)=>
+    // {   
+    //     return obj[key];
+    // })
