@@ -1,3 +1,4 @@
-my = 'chetan';
-
-console.log(my);
+(iterator.next().done === true)
+    // {
+    //     break;
+    // }
