@@ -1,4 +1,1 @@
-(iterator.next().done === true)
-    // {
-    //     break;
-    // }
+google
