@@ -1,4 +1,2 @@
-urn arr.map((obj)=>
-    // {   
-    //     return obj[key];
-    // })
+;
+        a2 = new Set(a2);
