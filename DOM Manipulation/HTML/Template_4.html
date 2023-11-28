@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event propagation</title>
+    <style>
+        .box-1 {
+            width: 20rem;
+            height: 20rem;
+            background-color: blue;
+
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .box-2 {
+            width: 10rem;
+            height: 10rem;
+            background-color: aqua;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box-1">
+        Box 1
+        <div class="box-2">Box 2
+        <button>Click</button>
+        <a href="" class="anchor">Anchor</a>
+        </div>
+    </div>
+    <script src="../js/eventPropagation.js"></script>
+</body>
+
+</html>
