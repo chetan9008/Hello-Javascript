@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event delegation</title>
+    <style>
+        ul {
+            list-style-type: none;
+        }
+        li {
+            padding:1rem;
+            width: 50%;
+            background-color: blue;
+            border: 1px solid white;
+        }
+        .active {
+            background-color: lightgrey;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <ul id="sports">
+            <li id="football">football</li>
+            <li id="cricket">cricket</li>
+            <li id="basketball">basketball</li>
+            <li id="kabadi">kabadi</li>
+        </ul>
+    </div>
+    <script src="../js/eventDelegation.js"></script>
+</body>
+
+</html>
