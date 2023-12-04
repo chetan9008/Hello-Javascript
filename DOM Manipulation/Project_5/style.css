@@ -1,0 +1,64 @@
+body {
+    /* height: 90vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addTaskContainer
+{
+    background-color: rgb(184, 184, 184);
+    padding:1rem;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    gap: 10px;
+}
+
+input {
+    border-radius: 10px;
+    padding:.5rem;
+    font-size: 1rem;
+}
+
+button{
+    font-size: 1rem;
+    padding:.4rem;
+    width:50px;
+    border-radius: 10px;
+}
+
+#addButton {
+    background-color: lightgreen;
+}
+
+.alertBox{
+    color: red;
+}
+
+.taskContainer .task {
+    background-color: orange;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+    border-radius: 10px;
+    padding: .5rem;
+    margin-top: 20px;
+}
+
+.taskContainer .checkBtn {
+    margin-right: 10px;
+    background-color: green;
+}
+
+.deleteBtn {
+    background-color: red;
+}
+
+.task-para {
+    font-size: 1.2rem;
+    line-height: 1.1;
+}
+
+.underline {
+    text-decoration:line-through;
+}
