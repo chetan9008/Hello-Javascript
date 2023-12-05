@@ -1,0 +1,19 @@
+.gameContainer
+{
+    text-align: center;
+}
+
+.score {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+#snakeGame {
+    border: 5px solid;
+}
+.resetBtn {
+    padding:1rem;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    background-color: lightblue;
+}
