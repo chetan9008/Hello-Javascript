@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snake Game</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="gameContainer">
-        <canvas id="snakeGame" width="380" height="380"></canvas>
-        <p class="score">0</p>
-        <button class="resetBtn">Reset</button>
+        <div class="flex-item-1">
+            <canvas id="snakeGame" width="390" height="390"></canvas>
+        </div>
+        <div class="flex-item-2">
+            <div class="flex-item">
+                <p class="score">0</p>
+                <button class="resetBtn">Reset</button>
+            </div>
+        </div>
     </div>
     <script src="main.js"></script>
 </body>
+
 </html>
