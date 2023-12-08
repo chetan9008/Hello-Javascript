@@ -12,7 +12,7 @@ let scoreText = document.querySelector('.score');
 const gameWidth = gameBoard.width;
 const gameHeight = gameBoard.height;
 const boardColor = 'black';
-const unitSize = 15;
+const unitSize = 20;
 let foodX, foodY;
 const foodColor = 'red';
 const snakeColor = 'green';
